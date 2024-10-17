@@ -54,7 +54,10 @@ class RegisterPage extends StatelessWidget {
                 onPressed: () async {
                   try {
                     await FirebaseAuthService().register(
-                        emailController.text, passwordController.text);
+                      nameController.text,
+                      emailController.text,
+                      passwordController.text,
+                    );
                     Navigator.pop(context);
                   } catch (e) {
                     ScaffoldMessenger.of(context).showSnackBar(

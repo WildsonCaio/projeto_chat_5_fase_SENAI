@@ -21,7 +21,7 @@ void main() async {
         fontFamily: GoogleFonts.dmSans().fontFamily,
         useMaterial3: false
       ),
-      initialRoute: 'login',
+      initialRoute: 'feedback',
       routes: {
         '/':(context)=>HomePage(),
         'login':(context)=>LoginPage(),

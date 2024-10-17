@@ -1,7 +1,9 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_application_5/components/custom_input.dart';
+import 'package:flutter_application_5/services/db_service.dart';
 
 class FeedbackPage extends StatelessWidget {
   FeedbackPage({super.key});
@@ -50,7 +52,9 @@ class FeedbackPage extends StatelessWidget {
             ),
             IconButton(
               splashRadius: 1,
-              onPressed: () {},
+              onPressed: () async {
+                await FirebaseDbService().postFeedback(messageController.text);
+              },
               icon: Icon(Icons.send),
             ),
           ],
