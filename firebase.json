@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"chat-senai-5","appId":"1:928245760107:android:a0270d8a0101bac819f12e","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"chat-senai-5","configurations":{"android":"1:928245760107:android:a0270d8a0101bac819f12e","web":"1:928245760107:web:dd9687eaaf8cf47e19f12e"}}}}}}

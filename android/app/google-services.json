@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "928245760107",
+    "firebase_url": "https://chat-senai-5-default-rtdb.firebaseio.com",
+    "project_id": "chat-senai-5",
+    "storage_bucket": "chat-senai-5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928245760107:android:a0270d8a0101bac819f12e",
+        "android_client_info": {
+          "package_name": "com.example.chatsenai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFWax-raGTAwt5EoLEQxOImI0W1N_9iNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928245760107:android:9e3b32001a14a94e19f12e",
+        "android_client_info": {
+          "package_name": "com.example.teste"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFWax-raGTAwt5EoLEQxOImI0W1N_9iNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
